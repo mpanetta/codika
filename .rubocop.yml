@@ -1,0 +1,45 @@
+plugins:
+  - rubocop-rspec
+  - rubocop-factory_bot
+
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+
+Layout/LineLength:
+  Exclude:
+    - codika.gemspec
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Naming/AccessorMethodName:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 5
+
+RSpec/SharedExamples:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/OpenStructUse:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: True
+  EnforcedStyle: double_quotes
