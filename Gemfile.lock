@@ -35,6 +35,7 @@ GEM
     logger (1.7.0)
     method_source (1.1.0)
     minitest (5.25.5)
+    ostruct (0.6.1)
     parallel (1.27.0)
     parser (3.3.8.0)
       ast (~> 2.4.1)
@@ -94,8 +95,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   factory_bot (~> 6.5.1)
   freezolite (~> 0.6)
+  ostruct (~> 0.6.1)
   pry (~> 0.15.2)
   rspec (~> 3.13)
   rubocop (~> 1.75.7)
