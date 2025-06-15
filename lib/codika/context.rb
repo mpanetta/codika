@@ -9,10 +9,23 @@ module Codika
     def initialize(params = {})
       validated = _validate_params!(params)
 
-      @success = nil
+      @success = true
       @error = nil
 
       super(validated)
+    end
+
+    def success?
+      !!@success
+    end
+
+    def failure?
+      !success?
+    end
+
+    def fail!(error: nil)
+      @success = false
+      @error = error
     end
 
     private

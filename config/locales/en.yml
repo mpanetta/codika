@@ -1,0 +1,6 @@
+en:
+  codika:
+    actions:
+      errors:
+        missing_required: "Missing required keys: %{keys}"
+        missing_promised: "Missing promised keys: %{keys}"

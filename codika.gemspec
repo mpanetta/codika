@@ -1,6 +1,9 @@
 require "English"
+
+require_relative "lib/codika/version"
+
 Gem::Specification.new do |gem|
-  gem.name = "Codika"
+  gem.name = "codika"
   gem.version = Codika::VERSION
 
   gem.authors = ["Michael Panetta"]

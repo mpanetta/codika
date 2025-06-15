@@ -95,9 +95,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport
+  activesupport (~> 8.0.2)
   factory_bot (~> 6.5.1)
   freezolite (~> 0.6)
+  i18n (~> 1.14.7)
   ostruct (~> 0.6.1)
   pry (~> 0.15.2)
   rspec (~> 3.13)
